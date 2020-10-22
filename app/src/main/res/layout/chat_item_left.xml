@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="7">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_left">
+                <TextView
+                    android:id="@+id/show_message_message_section"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="hello"/>
+
+                
+
+                <TextView
+                    android:id="@+id/attached_file"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/show_message_message_section"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="text"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout> <!--first child -->
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="3">
+
+        </LinearLayout> <!--first child -->
+
+    </LinearLayout> <!--parent  -->
+
+
+
+</RelativeLayout>

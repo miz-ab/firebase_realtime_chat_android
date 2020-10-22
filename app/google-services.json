@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "465722108738",
+    "firebase_url": "https://mizgram-3701b.firebaseio.com",
+    "project_id": "mizgram-3701b",
+    "storage_bucket": "mizgram-3701b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465722108738:android:88a4b3ddb0f991e6",
+        "android_client_info": {
+          "package_name": "com.example.miz.mizgram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465722108738-udapeogtmme1mc1ng6barcmnkcvathjm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.miz.mizgram",
+            "certificate_hash": "8a6380dbe73df902a98af3507d867433ecd042fc"
+          }
+        },
+        {
+          "client_id": "465722108738-hevd1ab19tvi67ee0a7fj1jmet28dlef.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.miz.mizgram",
+            "certificate_hash": "38750f9ce8e2305858cbc2c2fa20e955ec62a312"
+          }
+        },
+        {
+          "client_id": "465722108738-392b367ati12808hbuinlhm5a1dpajmh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1KdNv9LwH-2_jWImNSeT_K8YRDzdo6Xw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465722108738-392b367ati12808hbuinlhm5a1dpajmh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
